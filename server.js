@@ -27,7 +27,7 @@ io.on('connection', (socket)=>{
 })
 
 // this is port on which oir server will run
-const PORT = 3000;
+const PORT = 5000;
 server.listen(PORT,()=>{
-    console.log(`Server is run on PORT ${3000}`);
+    console.log(`Server is run on PORT ${5000}`);
 })
